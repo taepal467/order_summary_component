@@ -1,0 +1,111 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+h4 {
+    color:hsl(223, 47%, 23%);
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+
+.top-image{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.card {
+    border-radius: 30px;
+    width: 22rem;
+    height: 35rem;
+}
+
+.card-text,
+.price-text {
+    color: hsl(224, 23%, 55%);
+}
+
+/* Middle section */
+.mid-section {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px; 
+    height: 75px;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.icon-image {
+    padding: 10px 0 10px;
+  }
+  
+  .card-subtitle {
+      font-weight: bold;
+      padding: 15px 30px 0 5px;
+  }
+  
+  .price-text {
+      padding: 0 30px 0 5px;
+  }
+
+/* Buttons */
+.btn-primary {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.btn-primary:hover {
+    background-color:rgb(107, 77, 187);
+}
+
+.btn-link {
+    font-weight: 500;
+}
+
+.cancel-btn {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn:hover {
+    color:hsl(223, 47%, 23%);
+}
+
+.change-btn:hover {
+    color:rgb(107, 77, 187);
+    text-decoration: none;
+}
+
+/* footer section */
+.attribution { 
+    font-size: 1em; 
+    text-align: center;
+    padding-bottom: 10px;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+     text-decoration: none; 
+}
+
+.attribution a:hover {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+  }
