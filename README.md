@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-component-using-bootstrap-and-flex-8ucP3bUH7)
+- Live Site URL: [Add live site URL here](https://taepal467.github.io/order_summary_component/)
 
 ## My process
 I started off by structuring the content in HTML. Then I used Bootstrap to make the card layout. After doing that, I started playing around with the margins and paddings to get everything in position. I also had to figure out the heights and widths for the card. Then, I began styling the card. My last step was figuring out the background.
